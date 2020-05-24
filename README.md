@@ -1,3 +1,16 @@
+This is a trimmed down version of the original Palground (see below). This trimmed down version was used for a course.
+
+run using ./startBADS
+
+The goal is to:
+
+* Have this as simple as possible
+* Not allow changing of data, since this is used by multiple users, while there is only 1 graph :-(
+* Not have example queries (they are on the course slides)
+* Have both the data and query on one page (also includes a static image of the structure)
+
+
+
 # Sparql Playground
 
 [![Build Status](https://travis-ci.org/calipho-sib/sparql-playground.svg?branch=master)](https://travis-ci.org/calipho-sib/sparql-playground)

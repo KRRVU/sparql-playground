@@ -1,0 +1,23 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://example.org/cities.ttl#> .
+
+:Berlin
+	:population "3500000"^^xsd:integer ;
+	:name "Berlin" ;
+	:locateOnBank :Spree, :Havel ;
+    :capital :Germany ;
+    :state :Germany .
+    
+:Pankow 
+    a :City ;
+    :borough :Berlin ;
+    :population "384367"^^xsd:integer .
+
+:Neukoelln 
+    a :City ;
+    :borough :Berlin ;
+    :population "325716"^^xsd:integer ;
+    :name "Neukolln"@en ;
+    :name "Neuköln"@de .

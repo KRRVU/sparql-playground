@@ -30,12 +30,20 @@ function snorql($http, $q, $timeout, $location, config) {
                   '}\n' +
                   'ORDER BY (!BOUND(?hasValue)) ?property ?hasValue ?isValueOf',
 
-    description:   'Here is a an example on how to get the first 10 rows of a dataset. \nClick on the examples on the right to continue your journey about learning SPARQL.',
+//    description:   'Here is a an example on how to get the first 10 rows of a dataset. \nClick on the examples on the right to continue your journey about learning SPARQL.',
+//
+//
+//    title:"Extract some data",
+//    query:'SELECT DISTINCT * WHERE {\n  ?s ?p ?o\n}\nLIMIT 10\n\n\n# When doing such a query it is important to set LIMIT 10.\n# This limit avoids performance issues, if the size of the dataset is unknown.',
+
+    
+    description:   'Here is a an example on how to get the first 10 triples of a dataset. Modify it as you wish and execute.\n\n Some warnings:\n* Do not include a the FROM part in your query.\n* Do not write the prefixes which are below again.\n* Be careful when copying queries that they have the right quote symbols. You need straight quotes like "Berlin" and not curled ones like “Berlin”. ',
 
 
-    title:"Extract some data",
-    query:'SELECT DISTINCT * WHERE {\n  ?s ?p ?o\n}\nLIMIT 10\n\n\n# When doing such a query it is important to set LIMIT 10.\n# This limit avoids performance issues, if the size of the dataset is unknown.',
+    title:"",
+    query:'SELECT DISTINCT * WHERE {\n  ?s ?p ?o\n}\nLIMIT 10\n\n\n',
 
+    
     // set your endpoint here
     sparqlEndpoint:config.sparql.endpoint,
     sparqlUrlExamples:config.sparql.examples,
