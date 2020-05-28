@@ -20,4 +20,4 @@
     :borough :Berlin ;
     :population "325716"^^xsd:integer ;
     :name "Neukolln"@en ;
-    :name "Neuköln"@de .
+    :name "Neukölln"@de .
