@@ -6,7 +6,7 @@
 :Berlin
 	:population "3500000"^^xsd:integer ;
 	:name "Berlin" ;
-	:locateOnBank :Spree, :Havel ;
+	:locatedOnBank :Spree, :Havel ;
     :capital :Germany ;
     :state :Germany .
     
