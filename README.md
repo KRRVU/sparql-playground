@@ -1,4 +1,4 @@
-This is a trimmed down version of the original Palground (see below). This trimmed down version was used for a course.
+This is a trimmed down version of the original Playground (see below). This trimmed down version was used for a course.
 
 run using ./startBADS
 
